@@ -1,0 +1,223 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#page {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: grid;
+    width: 92%;
+    height: 92%;
+    grid-template-areas:
+        "head head"
+        "main main"
+        "foot foot";
+    grid-template-rows: 90px 839px 50px;
+    grid-template-columns: 261px 93.8%;
+}
+
+#page>header {
+    grid-area: head;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+#page>main {
+    grid-area: main;
+    background-color:whitesmoke;
+    left: 0%;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.semsungpng{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#divBusca{
+    position: absolute;
+    left: 37.5%;
+    top: 3.2%;
+    background-color:whitesmoke;
+    border:solid 1px;
+    border-radius:15px;
+    width: 500px;
+    outline: none;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border: unset;
+    height:32px;
+    width:100%;
+    outline: none;
+  }
+
+  #btnBusca{
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 64.3%;
+      top: 4%;
+  }
+  
+
+.BotaoCadastro{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none !important;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.BotaoCadastro:hover{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.BotaoCarrinho{
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none !important;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.BotaoCarrinho:hover{
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.carrinho{
+    position: absolute;
+    top: 4%;
+    left: 97%;
+}
+
+.profile{
+    position: absolute;
+    top: 4.1%;
+    left: 86.2%;
+}
+
+#Email{
+    position: absolute;
+    top: 35%;
+    left: 37.5%;
+    width: 500px;
+    height: 33px;
+    background-color:whitesmoke;
+    border:solid 1px;
+    border-radius:15px;
+    width: 500px;
+    outline: none;
+}
+
+#Senha{
+    position: absolute;
+    top: 42%;
+    left: 37.5%;
+    width: 500px;
+    height: 33px;
+    background-color:whitesmoke;
+    border:solid 1px;
+    border-radius:15px;
+    width: 500px;
+    outline: none;
+}
+
+.botoes{
+    font-family: 'Arial', Helvetica, sans-serif;
+    position: absolute;
+    left: 47.5%;
+    top: 55%;
+}
+
+.botaocadastrese{
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.entrar{
+    position: absolute;
+    color: whitesmoke;
+    background-color: rgb(53, 53, 255);
+    border-radius: 15px;
+    height: 33px;
+    width: 500px;
+    top: 49%;
+    left: 37.5%;
+    border: none;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: 17px;
+}
+.carineo{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 23.8%;
+    left: 28%;
+}
+.linha{
+    position: absolute;
+    width: 80%;
+    height: 0.02cm;
+    background-color: rgb(158, 156, 156);
+    left: 18%;
+    top: 30%;
+}
+.fofo{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
